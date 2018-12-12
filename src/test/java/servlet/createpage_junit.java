@@ -22,11 +22,11 @@ import servlet.createpage;
 public class createpage_junit {
 	
 	
-	public createpage obj = new createpage();
+	private createpage obj = new createpage();
 	
 	
 	@Test
-	public void test() throws ServletException, IOException
+	private void test() throws ServletException, IOException
 	{
 		
 		
