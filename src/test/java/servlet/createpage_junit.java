@@ -1,23 +1,12 @@
 package servlet;
 
 import java.io.IOException;
-import java.io.PrintWriter;
 
 import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 import org.junit.Test;
-
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
-import org.apache.commons.collections.FactoryUtils;
-import org.apache.http.HttpStatus;
-import org.apache.http.HttpVersion;
-import org.apache.http.impl.DefaultHttpResponseFactory;
-import org.apache.http.message.BasicStatusLine;
-
-import servlet.createpage;
 
 public class createpage_junit {
 	
@@ -26,7 +15,7 @@ public class createpage_junit {
 	
 	
 	@Test
-	private void test() throws ServletException, IOException
+	public void test() throws ServletException, IOException
 	{
 		
 		
