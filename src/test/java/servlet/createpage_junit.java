@@ -1,9 +1,5 @@
 package servlet;
 
-import java.io.IOException;
-
-import javax.servlet.ServletException;
-
 import org.junit.Test;
 import org.springframework.mock.web.MockHttpServletRequest;
 import org.springframework.mock.web.MockHttpServletResponse;
@@ -15,7 +11,7 @@ public class createpage_junit {
 	
 	
 	@Test
-	public void test() throws ServletException, IOException
+	public void test() throws Exception
 	{
 		
 		
